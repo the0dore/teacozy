@@ -51,17 +51,39 @@ nav {
     align-items: center;
 }
 
+.headings {
+    background: black;
+}
+
 .mission {
     background-image: url(/resources/images/img-mission-background.jpg);
     height: 700px;
     display: flex;
     align-items: center;
+    margin-bottom: 70px;
 }
 
-.headings {
-    background: black;
-    width: 1200px;
+.mission .headings {
+    width: 1200px;    
 }
+
+
+.featured-tea {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.featured-tea .headings {
+    width: 1000px;
+}
+
+.images {
+    margin: 15px 15px 0;
+}
+
+
 
 
 

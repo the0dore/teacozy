@@ -1,6 +1,7 @@
 body {
     background-color: black;
     opacity: 0.9;
+    text-align: center;
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
@@ -9,6 +10,11 @@ body {
 
 a {
     color: seashell;
+}
+
+h2, h4 {
+    padding: 10px;
+    margin: 0;
 }
 
 
@@ -20,6 +26,7 @@ header {
     height: 69px;
     width: 100%;
     position: fixed;
+    background-color: black;
 }
 
 .logo {
@@ -33,3 +40,30 @@ nav {
     width: 350px;
     padding: 0 10px;
 }
+
+
+.content {
+    display: flex;
+/*    position: relative;*/
+/*    top: 70px;*/
+    padding-top: 70px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mission {
+    background-image: url(/resources/images/img-mission-background.jpg);
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.headings {
+    background: black;
+    width: 1200px;
+}
+
+
+
+
+

@@ -56,7 +56,7 @@ nav {
 
 
 #mission {
-    background-image: url(/resources/images/img-mission-background.jpg);
+    background-image: url(/img-mission-background.jpg);
     height: 700px;
     display: flex;
     align-items: center;
@@ -86,7 +86,7 @@ nav {
 
 
 #locations {
-    background-image: url(/resources/images/img-locations-background.jpg);
+    background-image: url(/img-locations-background.jpg);
     display: flex;
     justify-content: center;
     align-content: center;

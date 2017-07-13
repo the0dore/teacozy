@@ -1,11 +1,11 @@
 body {
     background-color: black;
-    opacity: 0.9;
     text-align: center;
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
     margin: 0;
+    opacity: 0.9;
 }
 
 a {
@@ -27,6 +27,7 @@ header {
     width: 100%;
     position: fixed;
     background-color: black;
+/*    z-index: 1;*/
 }
 
 .logo {
@@ -44,8 +45,6 @@ nav {
 
 .content {
     display: flex;
-/*    position: relative;*/
-/*    top: 70px;*/
     padding-top: 70px;
     flex-direction: column;
     align-items: center;
@@ -55,29 +54,30 @@ nav {
     background: black;
 }
 
-.mission {
+
+#mission {
     background-image: url(/resources/images/img-mission-background.jpg);
     height: 700px;
     display: flex;
     align-items: center;
-    margin-bottom: 70px;
 }
 
-.mission .headings {
+#mission .headings {
     width: 1200px;    
 }
 
 
-.featured-tea {
+#featured-tea {
     width: 1000px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 70px;
     margin-bottom: 63px;
 }
 
-.featured-tea .headings {
-    width: 1000px;
+#featured-tea .headings {
+    width: 100%;
 }
 
 .images {
@@ -85,7 +85,7 @@ nav {
 }
 
 
-.locations {
+#locations {
     background-image: url(/resources/images/img-locations-background.jpg);
     display: flex;
     justify-content: center;
@@ -93,18 +93,19 @@ nav {
     flex-wrap: wrap;
     height: 500px;
     width: 1200px;
+    padding: 63px 0 8px;
 }
 
-.locations h2 {
+#locations h2 {
     width: 100%;
 }
 
-.locations .address {
+.address {
     width: 300px;
-    height: 300px;
+/*    height: 300px;*/
     background-color: black;
     opacity: 1;
-    margin: 5px 20px;
+    margin: 30px 20px 140px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -115,7 +116,7 @@ footer {
     width: 100%;
 }
 
-footer h5:last-child {
+h5:last-child {
     text-align: left;
     padding: 40px 0 0 20px;
 }
